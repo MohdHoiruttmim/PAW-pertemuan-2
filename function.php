@@ -11,7 +11,7 @@
     echo "<h1>Tekanan Hidrostatis Zat Cair</h1>";
     function tekanan_hidrostatis($jenisZatCair, $gravitasi, $kedalaman) {
       $res = $jenisZatCair * $gravitasi * $kedalaman;
-      echo "<br>tekanan hidrostatisnya adalah: ".$res;
+      echo "<br>tekanan hidrostatisnya adalah: <b>".$res. "</b> Pa";
     }
 
     // tekanan_hidrostatis(massa-jenis-zat-cair, percepatan-gravitasi, kedalam)
